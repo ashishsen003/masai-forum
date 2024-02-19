@@ -1,0 +1,121 @@
+
+
+/* --------------------------------------- */
+
+.login__page{
+    display: flex;
+}
+.login__img__div{
+    width: 75%;
+    height: 100vh;
+    /* border: 1px solid red */
+}
+.login__img__div > img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 99.1vh;
+}
+.title{
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-left: 3rem;
+}
+.title__logo__div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form__div{
+    width: 25%;
+    /* border: 1px solid red; */
+    padding: 2.5rem 2.5rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: space-between; */
+    /* text-align: center; */
+}
+.msg{
+    /* text-align: left; */
+    font-weight: 600;
+    font-size: 1rem;
+}
+.input{
+    width: 100%;
+    height: 2.5rem;
+    border: none;
+    background-color: lightgray  ;
+    border-radius: .2rem;
+    text-indent: .5rem;
+}
+.form__div label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 1rem;
+    justify-content: left;
+    font-size: .7rem;
+    margin-bottom: .3rem;
+}
+.form__div > div > form > label:nth-child(4){
+    margin: 1rem 0 -1.3rem 1rem;
+}
+.forget__div{
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+    text-decoration: none;
+    margin: 1rem 0;
+}
+.forget__div a{
+    text-decoration: none;
+}
+.rem__div{
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* text-align: left; */
+    /* border: 1px solid red; */
+    width: 50%;
+    gap: 0;
+}
+#rem__input{
+    height: .8rem;
+}
+
+.signin__btn{
+    width: 100%;
+    background-color: #007aff;
+    height: 2.5rem;
+    border: none;
+    color: white;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+}
+
+.goggle__btn{
+    width: 100%;
+    background-color: #333333;
+    height: 2.5rem;
+    border: none;
+    color: white;
+    border-radius: .2rem;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 2rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+}
+
+.signup__btn{
+    text-align: center;
+    font-size: .8rem;
+}
+.link__btn{
+    /* color: red; */
+    text-decoration: none;
+}
